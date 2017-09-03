@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar__logo {
+    height: 36px;
+}
+
+.navbar__menu {
+    float: right;
+    margin-top: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.navbar__menu__item{
+    display: inline;
+    list-style: none
+}
+.navbar__menu__item a{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    margin-left: 60px;
+}
+.navbar__menu__item a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+.navbar__menu__item.active a {
+    color: rgba(0, 0, 0, 0.7);;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 35.5em){
+    .navbar__menu__item a{
+        margin-left: 10px;
+    }
+}

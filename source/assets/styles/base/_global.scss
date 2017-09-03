@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+//remove it later
+.content-body {
+    height: 500px;
+}

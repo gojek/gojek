@@ -1,0 +1,22 @@
+<div class="navbar">
+  <div class="container">
+    <a href="/"><%= image_tag "logo.svg", :class => 'navbar__logo'%></a>
+    <div class="navbar__menu">
+      <li class="navbar__menu__item <%= is_page_active('/about/') %>">
+        <%= link_to 'About', '/about.html' %>
+      </li>
+      <li class="navbar__menu__item <%= is_page_active('/career/') %>">
+        <%= link_to 'career', '/career.html' %>
+      </li>
+      <li class="navbar__menu__item <%= is_page_active('/team/') %>">
+        <%= link_to 'team', '/team.html' %>
+      </li>
+      <li class="navbar__menu__item <%= is_page_active('/contact/') %>">
+        <%= link_to 'contact', '/contact.html' %>
+      </li>
+      <li class="navbar__menu__item <%= is_page_active('/blog/') %>">
+        <%= link_to 'Blog', '/blog.html' %>
+      </li>
+    </div>
+  </div>
+</div>
