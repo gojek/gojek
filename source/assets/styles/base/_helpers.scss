@@ -11,8 +11,12 @@
     color: rgba(0, 0, 0, 0.80);
 }
 
-.txt-center {
+.text-center {
     text-align: center;
+}
+
+.p-t-160 {
+    padding-top: 160px; 
 }
 
 .m-auto {
@@ -35,12 +39,20 @@
     margin-bottom: 10px;
 }
 
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
 .m-b-60 {
     margin-bottom: 60px;
 }
 
 .m-b-90 {
     margin-bottom: 90px;
+}
+
+.m-b-120 {
+    margin-bottom: 120px;
 }
 
 .pull-left {
@@ -56,4 +68,24 @@
     content: "";
     display: table;
     clear: both;
+}
+
+
+.button {
+    padding: 6px 36px;
+    width: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+}
+
+.button:hover {
+    border-color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.flat-link {
+    color: #33B91C;
+    cursor: pointer;
+    text-decoration: none;
 }
