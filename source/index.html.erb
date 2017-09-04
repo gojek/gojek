@@ -1,1 +1,173 @@
-<div class="content-body"></div>
+<div class="homepage">
+    <p class="heading txt-center">Moving people with technology</p>
+    <div class="homepage__viz"></div>
+    <div class="container">
+        <p class="heading txt-center m-b-60">Our engineering values</p>
+        <div class="pure-g">
+            <div class="pure-u-1-3">
+                <div class="homepage__values">
+                    <p class="heading--m">Fast & Furious</p>
+                    <p>Every engineer on our crew rides on cutting edge technology from Day One! Our tech stack consists of Clojure, Java, Ruby and Golang. We execute on Lean Software Development and Queueing theory. Our distributed teams build software to handle massive scale and rate of growth, and are distributed across India, Singapore and Indonesia.</p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="homepage__values m-auto">
+                    <p class="heading--m">Never Ending Learning</p>
+                    <p>We build for the love of building. We learn for the love of learning. We understand that capable, committed people are 10-100X more productive. We contribute to open source, host regular tech talks, hackathons and meetups to empower the entire community with the opportunity to refine their craft.</p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="homepage__values pull-right">
+                    <p class="heading--m">Fast & Furious</p>
+                    <p>Every engineer on our crew rides on cutting edge technology from Day One! Our tech stack consists of Clojure, Java, Ruby and Golang. We execute on Lean Software Development and Queueing theory. Our distributed teams build software to handle massive scale and rate of growth, and are distributed across India, Singapore and Indonesia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="homepage__cover-video m-v-140">
+            <div id="player1"></div>
+            <div class="playbutton" id="js-playbutton1" style="display: block;">
+                <%= image_tag "playbutton.svg", :class => ''%>
+            </div>
+        </div>
+        <p class="heading txt-center m-b-90">Our impacts for indonesia</p>
+        <div class="pure-g">
+            <div class="pure-u-1-3">
+                <div class="homepage__impacts">
+                    <%= image_tag "homepage/graph1.png", :class => 'm-b-10' %>
+                    <p class="txt-center heading--m">16 Products in 18 months</p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="homepage__impacts m-auto">
+                    <%= image_tag "homepage/graph2.svg", :class => 'm-b-10' %>
+                    <p class="txt-center heading--m">200k drivers</p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="homepage__impacts pull-right">
+                    <%= image_tag "homepage/graph3.svg", :class => 'm-b-10' %>
+                    <p class="txt-center heading--m">100M Completed Booking</p>
+                </div>
+            </div>
+        </div>
+        <div class="m-v-140">
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <div class="homepage__videos m-r-20">
+                        <div id="player2"></div>
+                        <div class="playbutton playbutton--s" id="js-playbutton2" style="display: block;">
+                            <%= image_tag "playbutton.svg", :class => ''%>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="homepage__videos m-l-20">
+                        <div id="player3"></div>
+                        <div class="playbutton playbutton--s" id="js-playbutton3" style="display: block;">
+                            <%= image_tag "playbutton.svg", :class => ''%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="heading txt-center m-v-140">We at Go-jek are touching people soul by using power of technology</p>
+    </div>
+</div>
+<script>
+    // 1. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 2. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player1, player2, player3;
+
+    function onYouTubeIframeAPIReady() {
+        player1 = new YT.Player('player1', {
+            height: '100%',
+            width: '100%',
+            videoId: 'cT4ayHgaxZ0',
+            events: {
+                'onStateChange': onPlayerOneChange
+            }
+        });
+
+        player2 = new YT.Player('player2', {
+            height: '100%',
+            width: '100%',
+            videoId: 'xpGWYN5kmdM',
+            events: {
+                'onStateChange': onPlayerTwoChange
+            }
+        });
+
+        player3 = new YT.Player('player3', {
+            height: '100%',
+            width: '100%',
+            videoId: 'Jj7PK05_Ow4',
+            events: {
+                'onStateChange': onPlayerThreeChange
+            }
+        });
+
+        document.getElementById('js-playbutton1').onclick = function() {
+            player1.playVideo();
+            var state = this.style.display;
+            if (state === 'block') {
+                this.style.display = 'none';
+            } else {
+                this.style.display = 'block';
+            }
+        };
+
+        function onPlayerOneChange(event) {
+            if (event.data == YT.PlayerState.PAUSED) {
+                document.getElementById('js-playbutton1').style.display = 'block';
+            }
+            if (event.data == YT.PlayerState.PLAYING) {
+                document.getElementById('js-playbutton1').style.display = 'none';
+            }
+        }
+
+        document.getElementById('js-playbutton2').onclick = function() {
+            player2.playVideo();
+            var state = this.style.display;
+            if (state === 'block') {
+                this.style.display = 'none';
+            } else {
+                this.style.display = 'block';
+            }
+        };
+
+        function onPlayerTwoChange(event) {
+            if (event.data == YT.PlayerState.PAUSED) {
+                document.getElementById('js-playbutton2').style.display = 'block';
+            }
+            if (event.data == YT.PlayerState.PLAYING) {
+                document.getElementById('js-playbutton2').style.display = 'none';
+            }
+        }
+
+        document.getElementById('js-playbutton3').onclick = function() {
+            player1.playVideo();
+            var state = this.style.display;
+            if (state === 'block') {
+                this.style.display = 'none';
+            } else {
+                this.style.display = 'block';
+            }
+        };
+
+        function onPlayerThreeChange(event) {
+            if (event.data == YT.PlayerState.PAUSED) {
+                document.getElementById('js-playbutton3').style.display = 'block';
+            }
+            if (event.data == YT.PlayerState.PLAYING) {
+                document.getElementById('js-playbutton3').style.display = 'none';
+            }
+        }
+       
+    }
+</script>

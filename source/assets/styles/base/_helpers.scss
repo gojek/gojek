@@ -1,0 +1,59 @@
+.heading {
+    font-size: 1.8em;
+    word-spacing: 1.6px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+}
+
+.heading--m {
+    font-size: 1.2em;
+    word-spacing: 1.6px;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.m-v-140 {
+    margin: 140px 0;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+}
+.m-r-20 {
+    margin-right: 20px;
+}
+
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-60 {
+    margin-bottom: 60px;
+}
+
+.m-b-90 {
+    margin-bottom: 90px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left:after,
+.pull-right:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,47 @@
+.homepage {
+    padding-top: 160px;
+}
+
+.homepage__viz {
+    margin: 100px 0;
+    height: 420px;
+    background-image: url('../images/dataviz.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage__values {
+    max-width: 400px;
+}
+
+.homepage__cover-video {
+    position: relative;
+    height: 700px;
+}
+
+
+.playbutton {
+    height: 90px;
+    position: absolute;
+    top: calc(50% - 45px);
+    left: calc(50% - 45px);
+    z-index: 20;
+    img {
+        height: 100%;
+    }
+}
+
+.playbutton--s {
+    height: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
+
+.homepage__impacts {
+    max-width: 240px;
+}
+
+.homepage__videos {
+    position: relative;
+    height: 400px;
+}
