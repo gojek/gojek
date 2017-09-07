@@ -2,8 +2,7 @@
     font-size: 1.8em;
     word-spacing: 1.6px;
     color: rgba(0, 0, 0, 0.6);
-    font-weight: 300;
-}
+    font-weight: 300;}
 
 .heading--m {
     font-size: 1.2em;
@@ -83,7 +82,7 @@
 
 
 .button {
-    padding: 6px 36px;
+    padding: 8px 36px;
     width: fit-content;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 2px;
@@ -93,6 +92,7 @@
 .button.button--primary {
     background-color: #3dc057;
     color: white;
+    border-color: #3dc057;
 }
 
 
@@ -103,6 +103,7 @@
 }
 .button.button--primary:hover {
     background-color: #33a149;
+    border-color: #33a149;
     color: white;
 }
 

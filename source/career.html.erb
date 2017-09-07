@@ -76,7 +76,36 @@
                 <div class="pure-u-1-3">
                     <p class="heading m-b-10">UX/UI Designer</p>
                     <p class="m-b-30">Bangalore</p>
-                    <p class="button m-b-60">View</p>
+                    <p class="button m-b-60" name="mymodal">View</p>
+                    <div class="modal" id="mymodal">
+                        <div class="container modal__box">
+                            <%= image_tag "closebutton.svg", :class => 'modal__close modal__close__button pull-right' %>
+                            <div class="job-detail">
+                                <div class="job-detail__header text-center m-b-90">
+                                    <p class="heading m-0">Android Senior Development Engineer</p>
+                                    <p class="m-b-30">Bangalore | Full time Responsibility</p>
+                                    <a class="button button--primary">Apply</a>
+                                </div>
+                                <div class="job-detail__responsibility m-b-60">
+                                    <p class="heading--m">Responsibilities</p>
+                                    <p>Previous experience as a senior level Product Designer</p>
+                                    <p>Experience leading the end to end design process</p>
+                                    <p>Strong grasp of animations, illustrations, iconography</p>
+                                    <p>Strong design portfolio that demonstrates depth of skill in both UX and UI</p>
+                                    <p>Practical experience working with remote teams.</p>
+                                </div>
+                                <div class="job-detail__requirement m-b-60">
+                                    <p class="heading--m">Requirements</p>
+                                    <p>Previous experience as a senior level Product Designer</p>
+                                    <p>Experience leading the end to end design process</p>
+                                    <p>Strong grasp of animations, illustrations, iconography</p>
+                                    <p>Strong design portfolio that demonstrates depth of skill in both UX and UI</p>
+                                    <p>Practical experience working with remote teams.</p>
+                                </div>
+                                <a class="button button--primary">Apply</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="pure-u-1-3">
                     <p class="heading m-b-10">Front-End Developer</p>
@@ -108,3 +137,67 @@
         <p class="heading text-center m-v-140">If you have something else in your mind, drop us a message <%= link_to 'here', '/contact.html', :class => 'flat-link' %></p>
     </div>
 </div>
+<script>
+    // Skeleton
+
+    // Modal Component
+
+    //  logic for modal
+
+    // close modal window
+    function modalClose() {
+        document.getElementsByClassName('modal show')[0].classList.remove('show');
+        document.body.classList.remove('overflow--hide');
+    }
+
+    // logic for connecting modal window to respective buttons
+    function modalHandler() {
+        var modals = document.getElementsByClassName('modal');
+        for (var i = 0; i < modals.length; i++) {
+            var modalName = modals[i].getAttribute('id');
+            var closeButtons = modals[i].getElementsByClassName('modal__close');
+
+            // for showing modal window
+            document.querySelectorAll('[name=' + modalName + ']')[0].onclick = function(event) {
+                event.stopPropagation();
+                event.preventDefault();
+                var name = this.getAttribute('name');
+                document.getElementById(name).classList.add('show');
+                document.body.classList.add('overflow--hide');
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (document.querySelectorAll('.modal.show').length) {
+                        if (event.target !== document.getElementsByClassName('modal__box')[0]) {
+                            modalClose();
+                            window.onclick = null;
+                        }
+                    }
+                };
+            };
+
+            // for closing modal window
+            if (closeButtons.length === 1) {
+                closeButtons[0].onclick = function() {
+                    modalClose();
+                };
+            } else {
+                for (var j = 0; j < closeButtons.length; j++) {
+                    closeButtons[j].onclick = function() {
+                        modalClose();
+                    };
+                }
+            }
+        }
+    }
+
+
+    //  close the modal window on esc key
+    document.addEventListener('keyup', function(e) {
+        if (e.keyCode === 27) {
+            modalClose();
+        }
+    });
+
+    modalHandler();
+</script>
