@@ -2,7 +2,8 @@
     font-size: 1.8em;
     word-spacing: 1.6px;
     color: rgba(0, 0, 0, 0.6);
-    font-weight: 300;}
+    font-weight: 300;
+}
 
 .heading--m {
     font-size: 1.2em;
@@ -10,9 +11,14 @@
     color: rgba(0, 0, 0, 0.80);
 }
 
+.heading--l {
+    font-size: 3em;
+}
+
 .mw-3 {
     max-width: 300px;
 }
+
 .mw-5 {
     max-width: 500px;
 }
@@ -22,7 +28,7 @@
 }
 
 .p-t-160 {
-    padding-top: 160px; 
+    padding-top: 160px;
 }
 
 .m-auto {
@@ -40,6 +46,7 @@
 .m-l-20 {
     margin-left: 20px;
 }
+
 .m-r-20 {
     margin-right: 20px;
 }
@@ -89,6 +96,7 @@
     letter-spacing: 1px;
     font-weight: 500;
 }
+
 .button.button--primary {
     background-color: #3dc057;
     color: white;
@@ -101,6 +109,7 @@
     color: rgba(0, 0, 0, 0.9);
     cursor: pointer;
 }
+
 .button.button--primary:hover {
     background-color: #33a149;
     border-color: #33a149;

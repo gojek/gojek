@@ -1,0 +1,19 @@
+.aboutpage {
+    /*background-image: url(../images/aboutpage/map.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 1100px;
+}
+
+.aboutpage__image {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 90px;
+}
+
+.aboutpage__center-heading {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 90px;
+}
