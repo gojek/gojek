@@ -3,7 +3,7 @@
     height: 90%;
     min-height: 500px;
     max-height: 760px;
-    background-image: url('../images/dataviz.svg');
+    background-image: url('../images/dataviz.png');
     background-size: cover;
     background-position: center;
     display: table;
@@ -16,7 +16,7 @@
 }
 
 .homepage__values {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .homepage__cover-video,
@@ -24,6 +24,11 @@
     position: relative;
 }
 
+.homepage__indonesia__info {
+    position: absolute;
+    top: calc(50% - 100px);
+    max-width: 600px;
+}
 .homepage__indonesia__map {
     width: 100%;
 }

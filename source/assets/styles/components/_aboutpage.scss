@@ -8,12 +8,21 @@
 
 .aboutpage__image {
     width: 100%;
-    max-width: 500px;
-    margin-bottom: 90px;
 }
 
 .aboutpage__center-heading {
     width: 70%;
     text-align: center;
-    margin: 0 auto 90px;
+    margin: 0 auto;
+}
+
+.aboutpage__image,
+.aboutpage__info {
+    max-width: 500px;
+}
+
+.aboutpage__image,
+.aboutpage__info,
+.aboutpage__center-heading {
+    margin-bottom: 120px;
 }
