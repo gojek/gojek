@@ -25,9 +25,8 @@
 }
 
 .homepage__indonesia__info {
-    position: absolute;
-    top: calc(50% - 100px);
-    max-width: 600px;
+    max-width: 500px;
+    margin-bottom: 90px;
 }
 .homepage__indonesia__map {
     width: 100%;
@@ -53,6 +52,7 @@
 
 .homepage__impacts {
     max-width: 100%;
+    margin-bottom: 90px;
 }
 
 .homepage__impacts__viz {
@@ -62,4 +62,5 @@
 .homepage__videos {
     position: relative;
     height: 400px;
+    margin-bottom: 90px;
 }
