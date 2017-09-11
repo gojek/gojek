@@ -1,0 +1,10 @@
+image: ruby:2.3
+pages:
+  stage: deploy
+  script:
+    - echo "Done"
+  artifacts:
+    paths:
+    - public 
+  only:
+  - master

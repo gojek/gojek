@@ -46,7 +46,7 @@ end
 # Build-specific configuration
 ###
 configure :build do
-
+  set :build_dir, 'public'
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
