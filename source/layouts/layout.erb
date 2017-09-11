@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <title>
-        <%= current_page.data.title || "Go-jek" %>
+        <%= current_page.data.title || "GO-JEK" %>
     </title>
     <%= favicon_tag 'logo.png' %>
         <!-- Preemptively open up connections for external assets -->
@@ -21,6 +21,7 @@
     <%= partial 'partials/header' %>
     <%= yield %>
     <%= partial 'partials/footer' %>
+    <%= partial 'partials/ga' %>
 </body>
 
 </html>
