@@ -18,12 +18,20 @@
 
 .homepage__list {
     text-align: center;
-    margin-bottom: 90px;
 }
 
 .homepage__icon {
     max-height: 100px;
     max-width: 250px;
+}
+
+.homepage__wall {
+    margin: 90px auto;
+}
+
+.homepage__wall__image {
+    width: 96%;
+    margin: 8px auto;
 }
 
 .homepage__values {
