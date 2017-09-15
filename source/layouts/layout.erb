@@ -8,12 +8,12 @@
         <%= current_page.data.title || "GO-JEK" %>
     </title>
     <%= favicon_tag 'logo.png' %>
-        <!-- Preemptively open up connections for external assets -->
-        <link rel="preconnect" href="//fonts.googleapis.com">
-        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-        <%= stylesheet_link_tag :index %>
+    <!-- Preemptively open up connections for external assets -->
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <%= stylesheet_link_tag :index %>
 </head>
 
 <body class="<%= page_classes %>">
@@ -21,6 +21,7 @@
     <%= yield %>
     <%= partial 'partials/footer' %>
     <%= partial 'partials/ga' %>
+    <%= partial 'partials/slider' %>
 </body>
 
 </html>

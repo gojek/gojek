@@ -16,7 +16,7 @@
     <link href="../../assets/styles/index.css" rel="stylesheet" />
 </head>
 
-<body class="partials partials_footer partials_footer_index">
+<body class="partials partials_slider partials_slider_index">
     <div class="navbar">
     <div class="container">
         <a href="/"><img src="../../assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
@@ -63,68 +63,47 @@
         </div>
     </div>
 </div>
-    <footer>
-    <div class="footer">
-        <div class="container">
-            <ul class="footer__menu__top">
-                <li class="footer__menu__item">
-                    <a href="../../">home</a>
-                </li>
-                <li class="footer__menu__item">
-                    <a href="../../about/">About</a>
-                </li>
-                <li class="footer__menu__item">
-                    <a href="../../career/">career</a>
-                </li>
-                <li class="footer__menu__item">
-                    <a href="../../team/">team</a>
-                </li>
-                <li class="footer__menu__item">
-                    <a href="../../contact/">contact</a>
-                </li>
-                <li class="footer__menu__item">
-                    <a href="https://blog.gojekengineering.com/" target="_blank">Blog</a>
-                </li>
-            </ul>
-            <div class="pure-g">
-                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-                    <ul class="footer__menu__bottom">
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-                    <ul class="footer__menu__bottom footer__apps">
-                        <li class="footer__menu__item footer__apps__title">Download app</li>
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/footer/playstore.svg" class="footer__icon" alt="Playstore" /></a>
-                        </li>
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/footer/apple.svg" class="footer__icon" alt="Apple" /></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-                    <ul class="footer__menu__bottom footer__social">
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/social/facebook.svg" class="footer__social__icon" alt="Facebook" /></a>
-                        </li>
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/social/twitter.svg" class="footer__social__icon" alt="Twitter" /></a>
-                        </li>
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/social/instagram.svg" class="footer__social__icon" alt="Instagram" /></a>
-                        </li>
-                        <li class="footer__menu__item">
-                            <a href="/"><img src="../../assets/images/social/linkedin.svg" class="footer__social__icon" alt="Linkedin" /></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+    <script>
+    // Slider handler
+
+    function sliderHandler() {
+        var sliders = document.getElementsByClassName('slider');
+
+        for(var i = 0; i < sliders.length; i++) {
+            var slider_id =  sliders[i].getAttribute('id');
+            var action_button = document.querySelector('[data-activates=' + slider_id + ']');
+            action_button.onclick = function() {
+                event.stopPropagation();
+                var name = this.getAttribute('data-activates');
+                document.getElementById(name).classList.add('opened');
+                document.getElementById(name).style.transform = 'translateX(0)';
+                wnidowClickHandler();
+            };
+        }
+    }
+
+    function wnidowClickHandler() {
+        // when user click outside window close it
+        window.onclick = function(event) {
+            var element = document.getElementsByClassName('slider opened');
+            var name = element[0].getAttribute('id');
+            if(element.length) {
+                if (event.target !== element[0] && !element[0].contains(event.target)) {
+                    document.getElementById(name).classList.remove('opened');
+                    if (document.getElementById(name).classList.contains('slider--right')) {
+                        document.getElementById(name).style.transform = 'translateX(105%)';
+                    } else {
+                        document.getElementById(name).style.transform = 'translateX(-105%)';
+                    }
+                    window.onclick = null;
+                }
+            }
+        };
+    }
+
+
+    sliderHandler();
+</script>
     <footer>
     <div class="footer">
         <div class="container">

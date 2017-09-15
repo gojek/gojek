@@ -1,9 +1,5 @@
 .aboutpage {
-    /*background-image: url(../images/aboutpage/map.png);*/
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height: 1100px;
+    margin-bottom: 140px;
 }
 
 
@@ -30,7 +26,10 @@
         letter-spacing: 1.2px;
         line-height: 2em;
         /*text-align: justify;*/
-        margin-bottom: 60px;
+        margin-bottom: 50px;
+    }
+    p.heading--m {
+        margin-bottom: 10px;
     }
 }
 

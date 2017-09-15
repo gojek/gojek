@@ -8,36 +8,60 @@
         GO-JEK
     </title>
     <link href="assets/images/logo.png" rel="icon" type="image/png" />
-        <!-- Preemptively open up connections for external assets -->
-        <link rel="preconnect" href="//fonts.googleapis.com">
-        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-        <link href="assets/styles/index.css" rel="stylesheet" />
+    <!-- Preemptively open up connections for external assets -->
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="assets/styles/index.css" rel="stylesheet" />
 </head>
 
 <body class="index">
     <div class="navbar">
-  <div class="container">
-    <a href="/"><img src="assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
-    <div class="navbar__menu">
-      <li class="navbar__menu__item ">
-        <a href="about/">About</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="career/">career</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="team/">team</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="contact/">contact</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="https://blog.gojekengineering.com/" target="_blank">Blog</a>
-      </li>
+    <div class="container">
+        <a href="/"><img src="assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
+        <div class="navbar__menu">
+            <li class="navbar__menu__item ">
+                <a href="about/">About</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="career/">career</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="team/">team</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="contact/">contact</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="https://blog.gojekengineering.com/" target="_blank">Blog</a>
+            </li>
+        </div>
+        <div class="navbar__menu__slider">
+            <p class="menu-button" data-activates="slideout">
+                <img src="assets/images/menu.svg" class="menu-image" alt="Menu" />
+            </p>
+            <div class="slider slider--right" id="slideout">
+                <ul class="menu">
+                    <li class="navbar__menu__item ">
+                        <a href="about/">About</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="career/">career</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="team/">team</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="contact/">contact</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="https://blog.gojekengineering.com/" target="_blank">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
     <div class="map-viz">
     <p class="heading heading--l text-center map-viz__title">Moving people with technology</p>
@@ -291,6 +315,47 @@ function onYouTubeIframeAPIReady() {
   ga('create', 'UA-80421053-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+    <script>
+    // Slider handler
+
+    function sliderHandler() {
+        var sliders = document.getElementsByClassName('slider');
+
+        for(var i = 0; i < sliders.length; i++) {
+            var slider_id =  sliders[i].getAttribute('id');
+            var action_button = document.querySelector('[data-activates=' + slider_id + ']');
+            action_button.onclick = function() {
+                event.stopPropagation();
+                var name = this.getAttribute('data-activates');
+                document.getElementById(name).classList.add('opened');
+                document.getElementById(name).style.transform = 'translateX(0)';
+                wnidowClickHandler();
+            };
+        }
+    }
+
+    function wnidowClickHandler() {
+        // when user click outside window close it
+        window.onclick = function(event) {
+            var element = document.getElementsByClassName('slider opened');
+            var name = element[0].getAttribute('id');
+            if(element.length) {
+                if (event.target !== element[0] && !element[0].contains(event.target)) {
+                    document.getElementById(name).classList.remove('opened');
+                    if (document.getElementById(name).classList.contains('slider--right')) {
+                        document.getElementById(name).style.transform = 'translateX(105%)';
+                    } else {
+                        document.getElementById(name).style.transform = 'translateX(-105%)';
+                    }
+                    window.onclick = null;
+                }
+            }
+        };
+    }
+
+
+    sliderHandler();
 </script>
 </body>
 
