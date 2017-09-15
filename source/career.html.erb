@@ -141,7 +141,7 @@
                 // When the user clicks anywhere outside of the modal, close it
                 window.onclick = function(event) {
                     if (document.querySelectorAll('.modal.show').length) {
-                        if (event.target !== document.getElementsByClassName('modal__box')[0]) {
+                        if (event.target === document.getElementsByClassName('modal show')[0]) {
                             modalClose();
                             window.onclick = null;
                         }
