@@ -1,57 +1,105 @@
 {
     "jobs": [
         {
-            "title": "Product Engineer",
+            "title": "Product Engineer - Backend",
             "location": "bangalore",
             "responsibilities": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "An incredible desire to be part of a team that delivers impactful results every day.",
+                "Design and develop highly scalable, reliable and fault tolerant systems with minimal guidance for one of the world’s fastest growing unicorns.",
+                "A commitment to writing understandable, maintainable, and reusable software.",
+                "Translate business requirements into scalable and extensible design.",
+                "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
+                "Partner with the product management team to define and execute the feature roadmap.",
+                "Coordinate with cross functional teams (Mobile, DevOps, Data, UX, QA etc.) on planning and execution.",
+                "Continuously improve code quality, product execution and customer delight.",
+                "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies.",
+                "Communicate, collaborate and work effectively across distributed teams in a global environment.",
+                "Building and managing fully automated build/test/deployment environments.",
+                "An innate desire to deliver and a strong sense of accountability for your work.",
+                "Willingness to learn new languages and methodologies.",
+                "An enormous sense of ownership."
             ],
             "requirements": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "You write code because you like to.",
+                "A deep passion for crafting delightful customer experiences.",
+                "4+ years of experience in software development or a serious open source track record",
+                "2+ years of hands-on experience in designing, developing, testing and deploying applications on Clojure, Ruby, Go or Java for large scale applications",
+                "Deep knowledge of Linux as a production environment",
+                "Proficient in OOP, including design patterns. Experience with functional programming is a plus.",
+                "Data modelling experience in both Relational and NoSQL databases.",
+                "Ability to understand and implement Continuous Integration and Continuous Delivery.",
+                "Well versed with Lean methodologies, TDD and Test Engineering and Automation.",
+                "Ability to design and implement low latency RESTful services.",
+                "Experience troubleshooting server performance ­memory issues, GC tuning, resource leaks etc.",
+                "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimisations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems.",
+                "Continuously refactor applications to ensure high-quality design.",
+                "Ability to plan, prioritise, estimate and execute releases with good degree of predictability.",
+                "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks.",
+                "Passion for learning new things, solving challenging problems.",
+                "Ability to get stuff done!"
             ]
         },
         {
-            "title": "Product Designer",
+            "title": "Data Engineer",
             "location": "bangalore",
             "responsibilities": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "Selecting features, building and optimizing machine learning models.",
+                "Data mining using state-of-the-art methods.",
+                "Extending company’s data with third party sources of information when needed.",
+                "Enhancing data collection procedures to include information that is relevant for building analytic systems.",
+                "Processing, cleansing, and verifying the integrity of data used for analysis.",
+                "Doing ad-hoc analysis and presenting results in a clear manner.",
+                "Building continuous deployments and productionizing machine learning models.",
+                "A/B Testing for models evaluation."
             ],
             "requirements": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "At least 1 -2 years of experience in a data science role working with large data sets.",
+                "Self-driven and entrepreneurial with a strong sense of ownership.",
+                "Excellent understanding of machine learning techniques and algorithms.",
+                "Experience with common data science toolkits, such as Scikit-Learn, R, Weka, MatLab, etc",
+                "Great communication skills.",
+                "Possess good understanding of design thinking, solid CS fundamentals",
+                "Good applied statistics skills, such as distributions, statistical testing, regression, etc",
+                "Good scripting and programming skills.",
+                "Experienced with Python, R , Golang, Scala, R and Shell.",
+                "Ability to whiteboard some theory while at the same time rolling up your sleeves and get coding Ability to work independently to solve problems and develop solutions",
+                "Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and develop data visualisation for data stories",
+                "Kaggle / Hackathons experience a plus."
             ]
         },
         {
-            "title": "Motion Designer",
+            "title": "Product Engineer - Mobile iOS",
             "location": "bangalore",
             "responsibilities": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "Design, build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel",
+                "Lead, mentor and manage deliverables of a small team of iOS developers",
+                "Partner with the product management team to define and execute the feature roadmap",
+                "Coordinate with cross functional teams (Backend, DevOps, Design etc.) on planning and execution",
+                "Proactively manage stakeholders communication related to deliverables, risks, changes and dependencies",
+                "Provide technology leadership to the team and foster engineering excellence",
+                "Communicate, collaborate and work effectively across cross functional teams in a global Environment"
             ],
             "requirements": [
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer",
-                "Previous experience as a senior level Product Designer"
+                "5+ years of experience in software development",
+                "2+ years of hands on experience in designing, developing and testing Apps on iOS for large scale applications (at least 500k MAU)",
+                "Experience on Rails will be a plus",
+                "Strong understanding of iOS Apps architecture and implementation",
+                "Proficient in OOPs, Design Patterns",
+                "Proficiency in Web Technologies will be a plus",
+                "Proficient in Objective­C programming, Cocoa, Xcode and the iOS SDK.",
+                "Ability to troubleshoot fuzzy problems across systems and subsystems effectively.",
+                "Ability to write model code for functional and nonfunctional requirements and help improve the code quality standard across the team",
+                "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimizations, database interactions, network programming, concurrency and multithreading.",
+                "Ability to design systems/sub­systems, API contracts and enable platformization independently",
+                "Working experience with popular libraries for networking, async, image loading etc.",
+                "Ability to create extendable and reusable eco systems & platforms and mobile.",
+                "Well versed with Agile methodologies, TDD and Test Engineering and Automation.",
+                "Ability to understand and implement continuous Integration and Continuous Delivery principles.",
+                "Ability to plan, prioritize, estimate and execute releases with good degree of predictability.",
+                "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
+                "Passion to learn new things, solve challenging problems.",
+                "Ability to Get Stuff Done!",
+                "Bachelors or Masters of Engineering/MCA"
             ]
         }
     ]

@@ -18,6 +18,14 @@
 
 .job-detail {
     padding: 120px 10%;
+    ul {
+        word-spacing: 1px;
+        line-height: 1.6em;
+        max-width: 900px;
+    }
+    li {
+        margin-bottom: 8px;
+    }
 }
 
 .job-detail__header {
