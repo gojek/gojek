@@ -11,8 +11,13 @@
 }
 
 .map-viz__title {
-    display: table-cell;
-    vertical-align: middle;
+    font-size: 5em;
+    font-family: 'neo sans';
+    padding-left: 10%;
+    max-width: 40%;
+    color: #3DC057;
+    line-height: 1.2;
+    transform: translateY(60%);
 }
 
 
@@ -75,6 +80,11 @@
 .homepage__impacts {
     max-width: 100%;
     margin-bottom: 90px;
+}
+.homepage__impacts__figure {
+    font-size: 1.6em;
+    color: #3DC057;
+    font-weight: 400;
 }
 
 .homepage__impacts__viz {

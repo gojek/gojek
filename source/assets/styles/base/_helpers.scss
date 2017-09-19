@@ -1,8 +1,8 @@
 .heading {
     font-size: 1.8em;
     word-spacing: 1.6px;
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 400;
 }
 .heading--l {
     font-size: 3em;
@@ -12,12 +12,10 @@
 .heading--m {
     font-size: 1.2em;
     word-spacing: 1.6px;
-    color: rgba(0, 0, 0, 0.80);
+    color: rgba(0, 0, 0, 0.8);
 }
 
-.heading--l {
-    font-size: 3em;
-}
+
 
 .mw-3 {
     max-width: 300px;
@@ -129,4 +127,10 @@
     color: #3dc057;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'neo sans';
+    src: url('../fonts/neo-sans-pro.ttf'); 
 }
