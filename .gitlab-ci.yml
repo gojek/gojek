@@ -1,9 +1,7 @@
-image: ruby:2.3
+image: starefossen/ruby-node:2-8-slim
 pages:
   stage: deploy
   script:
-    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-    - sudo apt-get install -y nodejs
     - bundle install
     - bundle exec middleman build
   artifacts:
