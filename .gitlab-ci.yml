@@ -2,7 +2,8 @@ image: ruby:2.3
 pages:
   stage: deploy
   script:
-    - echo "Done"
+    - bundle install
+    - bundle exec middleman build
   artifacts:
     paths:
     - public 
