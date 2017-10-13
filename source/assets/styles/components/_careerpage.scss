@@ -2,12 +2,14 @@
     background-image: url('../images/careerpage/cover.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 740px;
 }
 
 .careerpage__benefits {
-    max-width: 350px;
     margin-bottom: 60px;
+}
+.careerpage__benefits__desc {
+    max-width: 350px;
 }
 
 .go-life__image {
