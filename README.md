@@ -20,5 +20,9 @@ To run development server:
 $ bundle exec middleman server
 ```
 
-
+To deploy on gh-pages:
+```
+$ rake build
+$ rake publish
+```
 

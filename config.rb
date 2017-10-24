@@ -1,12 +1,3 @@
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-
-###
-# Page options, layouts, aliases and proxies
-###
-
 # Page settings:
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -46,7 +37,7 @@ end
 # Build-specific configuration
 ###
 configure :build do
-  set :build_dir, 'public'
+  
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
