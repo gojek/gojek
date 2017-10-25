@@ -1,0 +1,36 @@
+.careerpage__cover {
+    background-image: url('../images/careerpage/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+}
+
+.careerpage__benefits {
+    margin-bottom: 60px;
+}
+.careerpage__benefits__desc {
+    max-width: 350px;
+}
+
+.go-life__image {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.job-detail {
+    padding: 120px 10%;
+    ul {
+        word-spacing: 1px;
+        line-height: 1.6em;
+        max-width: 900px;
+    }
+    li {
+        margin-bottom: 8px;
+    }
+}
+
+.job-detail__header {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
