@@ -16,9 +16,18 @@ To run development server:
 $ bundle exec middleman server
 ```
 
-To deploy on gh-pages:
+To build locally:
 ```
-$ rake build
-$ rake publish
+$ bundle exec rake build
 ```
 
+To deploy on gh-pages:
+```
+$ bundle exec rake publish
+```
+
+If you run into issuse publishing:
+```
+$ rm -rf build
+$ bundle exec rake publish
+```
