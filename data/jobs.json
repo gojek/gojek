@@ -1,7 +1,7 @@
 {
     "jobs": [
         {
-            "title": "Product Engineer - Backend",
+            "title": "Product Engineer - Full Stack",
             "location": "bangalore",
             "responsibilities": [
                 "An incredible desire to be part of a team that delivers impactful results every day.",
@@ -24,6 +24,7 @@
                 "A deep passion for crafting delightful customer experiences.",
                 "4+ years of experience in software development or a serious open source track record",
                 "2+ years of hands-on experience in designing, developing, testing and deploying applications on Clojure, Ruby, Go or Java for large scale applications",
+				"2+ years of hands-on experience working on one or more front end technologies - Web, Android or iOS - and understand their nuances",
                 "Deep knowledge of Linux as a production environment",
                 "Proficient in OOP, including design patterns. Experience with functional programming is a plus.",
                 "Data modelling experience in both Relational and NoSQL databases.",
@@ -40,7 +41,7 @@
             ]
         },
         {
-            "title": "Data Engineer",
+            "title": "Data Scientist",
             "location": "bangalore",
             "responsibilities": [
                 "Selecting features, building and optimizing machine learning models.",
@@ -53,7 +54,7 @@
                 "A/B Testing for models evaluation."
             ],
             "requirements": [
-                "At least 1 -2 years of experience in a data science role working with large data sets.",
+                "At least 1-2 years of experience in a data science role working with large data sets.",
                 "Self-driven and entrepreneurial with a strong sense of ownership.",
                 "Excellent understanding of machine learning techniques and algorithms.",
                 "Experience with common data science toolkits, such as Scikit-Learn, R, Weka, MatLab, etc",
@@ -82,7 +83,7 @@
             "requirements": [
                 "5+ years of experience in software development",
                 "2+ years of hands on experience in designing, developing and testing Apps on iOS for large scale applications (at least 500k MAU)",
-                "Experience on Rails will be a plus",
+                "A willingness to expand into a full stack role, with an emphasis on iOS",
                 "Strong understanding of iOS Apps architecture and implementation",
                 "Proficient in OOPs, Design Patterns",
                 "Proficiency in Web Technologies will be a plus",
