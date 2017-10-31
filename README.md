@@ -26,7 +26,7 @@ To deploy on gh-pages:
 $ bundle exec rake publish
 ```
 
-If you run into issuse publishing:
+If you run into issues publishing:
 ```
 $ rm -rf build
 $ bundle exec rake publish
