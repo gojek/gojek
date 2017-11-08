@@ -3,7 +3,7 @@
         {
             "title": "Full Stack Engineer",
             "location": "bangalore",
-			"linktext": "full-stack",
+            "linktext": "full-stack",
             "responsibilities": [
                 "An incredible desire to be part of a team that delivers impactful results every day.",
                 "Design and develop highly scalable, reliable and fault tolerant systems with minimal guidance for one of the world’s fastest growing unicorns.",
@@ -25,7 +25,7 @@
                 "A deep passion for crafting delightful customer experiences.",
                 "4+ years of experience in software development or a serious open source track record",
                 "2+ years of hands-on experience in designing, developing, testing and deploying applications on Clojure, Ruby, Go or Java for large scale applications",
-				"2+ years of hands-on experience working on one or more front end technologies - Web, Android or iOS - and understand their nuances",
+                "2+ years of hands-on experience working on one or more front end technologies - Web, Android or iOS - and understand their nuances",
                 "Deep knowledge of Linux as a production environment",
                 "Proficient in OOP, including design patterns. Experience with functional programming is a plus.",
                 "Data modelling experience in both Relational and NoSQL databases.",
@@ -44,7 +44,7 @@
         {
             "title": "Data Scientist",
             "location": "bangalore",
-			"linktext": "data-scientist",
+            "linktext": "data-scientist",
             "responsibilities": [
                 "Selecting features, building and optimizing machine learning models.",
                 "Data mining using state-of-the-art methods.",
@@ -73,7 +73,7 @@
         {
             "title": "iOS Engineer",
             "location": "bangalore",
-			"linktext": "mobile-ios",
+            "linktext": "mobile-ios",
             "responsibilities": [
                 "Design, build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel",
                 "Lead, mentor and manage deliverables of a small team of iOS developers",
