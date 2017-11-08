@@ -57,6 +57,7 @@ var ModalWindows = function() {
 	        this.modalWindowElements = document.getElementsByClassName(this.targetClassName);
             this.setupModals();
             this.ensureOpenModalClosesOnEsc();
+            this.openWindowIfSetInUrlHash();
         },
 
         setupModals: function() {
@@ -70,13 +71,26 @@ var ModalWindows = function() {
                 self.modalWindows[modalWindowId] = modalWindow;
 
                 openModalWindowElement.onclick = function (event) {
+                    var anchorElement = this;
                     event.stopPropagation();
                     event.preventDefault();
-                    var modalWindow = self.modalWindows[this.getAttribute("name")];
-                    modalWindow.open();
-                    self.nowShowingModal = modalWindow;
+                    self.openWindow(anchorElement.getAttribute("name"));
                 };
             }
+        },
+
+        openWindow: function(linkText) {
+	        var self = this;
+            var modalWindow = self.modalWindows[linkText];
+            if(modalWindow !== undefined) {
+                window.location.hash = '#' + linkText;
+                modalWindow.open();
+                self.nowShowingModal = modalWindow;
+            }
+        },
+
+        openWindowIfSetInUrlHash: function() {
+	      this.openWindow(window.location.hash.substr(1));
         },
 
         closeCurrentlyOpenWindow: function() {
