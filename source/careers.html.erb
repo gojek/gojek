@@ -1,6 +1,3 @@
-<% content_for :head do %>
-<script type="text/javascript" src="/<%= config[:js_dir] %>/modal-window.js"></script>
-<% end %>
 <div class="careerpage p-t-160">
     <div class="container">
         <p class="heading heading--l text-center ">WE LOVE BUILDING BEAUTIFUL THINGS</p>
@@ -77,4 +74,7 @@
         <p class="heading text-center m-v-140">Your profile doesn't fit a box? Don't worry. <%= link_to 'Drop us a message.', '/contact.html', :class => 'flat-link' %></p>
     </div>
 </div>
-<script type="text/javascript">new ModalWindows("modal");</script>
+<script type="text/javascript">
+    <%= partial 'partials/modalwindow.js' %>
+    new ModalWindows("modal");
+</script>
