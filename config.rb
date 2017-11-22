@@ -10,6 +10,7 @@ page "/README.md", :directory_index => false
 set :css_dir, 'assets/styles'
 set :js_dir, 'assets/scripts'
 set :images_dir, 'assets/images'
+set :trailing_slash, false
 activate :directory_indexes
 
 ###
