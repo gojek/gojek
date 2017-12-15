@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 # Page settings:
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/README.md", :directory_index => false
+page '/README.md', directory_index: false
 
 ###
 # General configuration
@@ -17,35 +19,28 @@ activate :directory_indexes
 # Helpers
 ###
 helpers do
-  
   # Active page
   def is_page_active(page)
     current_page.url == page ? 'active' : ''
   end
-
 end
 
 ###
 # Development configuration
 ###
 configure :development do
-
   activate :livereload
-
 end
 
 ###
 # Build-specific configuration
 ###
 configure :build do
-  
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
   set :relative_links, true
   activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+    prefix.browsers = 'last 2 versions'
+  end
 end
-
-end
-
