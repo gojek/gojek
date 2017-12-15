@@ -1,7 +1,7 @@
 Website is built with [Middleman](http://www.middlemanapp.com), an open source static site generator.
 Feel free to take a look round.
 
-Please visit the website here : (http://gojekengineering.com)
+Please visit the website here : (http://www.gojek.io)
 
 ## Usage
 
