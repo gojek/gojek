@@ -2,7 +2,7 @@
 
 ## Description
 
-[Middleman](https://middlemanapp.com/)-Powered Website Builder ᵯ👨🏻‍🏭⚡🕸🏛👩🏻‍💻
+[Middleman](https://middlemanapp.com/)-Powered Website Builder 👨🏻‍🏭⚡🕸🏛
 
 [GO-JEK](https://github.com/gojek/gojek) generates content for 
 [GO-JEK GitHub Pages](https://github.com/gojek/gojek.github.io) 
