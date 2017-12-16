@@ -1,105 +1,102 @@
 .map-viz {
-    width: 100%;
-    height: 90%;
-    min-height: 500px;
-    max-height: 760px;
-    background-image: url('../images/dataviz.png');
-    background-size: cover;
-    background-position: center;
-    display: table;
-    margin-bottom: 100px;
+  width: 100%;
+  height: 90%;
+  min-height: 500px;
+  max-height: 760px;
+  background-image: url('../images/dataviz.png');
+  background-size: cover;
+  background-position: center;
+  display: table;
+  margin-bottom: 100px;
 }
 
 .map-viz__title {
-    font-size: 5em;
-    font-family: 'neo sans';
-    padding-left: 10%;
-    display: table-cell;
-    vertical-align: middle;
-    color: #3DC057;
-    line-height: 1.2;
+  font-size: 5em;
+  font-family: 'neo sans';
+  padding-left: 10%;
+  display: table-cell;
+  vertical-align: middle;
+  color: #3dc057;
+  line-height: 1.2;
 }
 
-
 .homepage__list {
-    text-align: center;
-    margin-bottom: 90px;
+  text-align: center;
+  margin-bottom: 90px;
 }
 
 .homepage__icon {
-    max-height: 100px;
-    max-width: 250px;
+  max-height: 100px;
+  max-width: 250px;
 }
 
 .homepage__wall {
-    margin: 90px auto;
+  margin: 90px auto;
 }
 
 .homepage__wall__image {
-    width: 96%;
-    margin: 8px auto;
+  width: 96%;
+  margin: 8px auto;
 }
 
 .homepage__values {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .homepage__cover-video,
 .homepage__indonesia {
-    position: relative;
+  position: relative;
 }
 
 .homepage__indonesia__info {
-    max-width: 500px;
-    margin: 12% 0;
-    margin-bottom: 90px;
-    span {
-        font-size: 3.4em;
-        color: #3DC057;
-    }
+  max-width: 500px;
+  margin: 12% 0;
+  margin-bottom: 90px;
+  span {
+    font-size: 3.4em;
+    color: #3dc057;
+  }
 }
 
 .homepage__indonesia__map {
-    width: 100%;
+  width: 100%;
 }
 
-
-
 .playbutton {
-    height: 90px;
-    position: absolute;
-    top: calc(50% - 45px);
-    left: calc(50% - 45px);
-    z-index: 20;
-    img {
-        height: 100%;
-    }
+  height: 90px;
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 45px);
+  z-index: 20;
+  img {
+    height: 100%;
+  }
 }
 
 .playbutton--s {
-    height: 80px;
-    top: calc(50% - 40px);
-    left: calc(50% - 40px);
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
 }
 
 .homepage__impacts {
-    max-width: 100%;
-    margin-bottom: 90px;
+  max-width: 100%;
+  margin-bottom: 90px;
 }
 
 .homepage__impacts__figure {
-    font-size: 1.6em;
-    color: #3DC057;
-    font-weight: 400;
+  font-size: 1.6em;
+  color: #3dc057;
+  font-weight: 400;
 }
 
 .homepage__impacts__viz {
-    width: 100%;
+  width: 100%;
 }
 
 .homepage__videos {
-    position: relative;
-    height: 480px;
-    margin: auto;
-    max-width: 60%;
+  position: relative;
+  height: 480px;
+  margin: auto;
+  max-width: 60%;
 }

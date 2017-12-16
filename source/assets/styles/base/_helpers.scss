@@ -1,116 +1,106 @@
 /*--- Headings ---*/
 .heading {
-    font-size: 1.8em;
-    word-spacing: 1.6px;
-    color: rgba(0, 0, 0, 0.9);
-    font-weight: 400;
+  font-size: 1.8em;
+  word-spacing: 1.6px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
 }
+
 .heading--l {
-    font-size: 3em;
-    color: rgba(0, 0, 0, 0.9);
-    margin-bottom: 10px;
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 10px;
 }
+
 .heading--s {
-    font-size: 1.2em;
-    word-spacing: 1.6px;
-    color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2em;
+  word-spacing: 1.6px;
+  color: rgba(0, 0, 0, 0.8);
 }
-
-
-
 
 /*-- text ---*/
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-cap {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
-
-
 
 /*-- margins/padding */
 .mw-3 {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .mw-5 {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .p-t-160 {
-    padding-top: 160px;
+  padding-top: 160px;
 }
+
 .p-t-140 {
-    padding-top: 140px;
+  padding-top: 140px;
 }
 
 .m-auto {
-    margin: auto;
+  margin: auto;
 }
 
 .m-0 {
-    margin: 0;
+  margin: 0;
 }
 
 .m-v-140 {
-    margin: 140px 0;
+  margin: 140px 0;
 }
 
 .m-l-20 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .m-r-20 {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-
 .m-b-10 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .m-b-30 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .m-b-60 {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .m-b-90 {
-    margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 .m-b-120 {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
-
-
-
 
 /*---- float ------*/
 .pull-left {
-    float: left;
+  float: left;
 }
 
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .pull-left:after,
 .pull-right:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-
-
-
-
 @font-face {
-    font-family: 'neo sans';
-    src: url('../fonts/neo-sans-pro.ttf'); 
+  font-family: 'neo sans';
+  src: url('../fonts/neo-sans-pro.ttf');
 }
