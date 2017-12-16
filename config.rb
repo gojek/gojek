@@ -1,4 +1,8 @@
-# frozen_string_literal: true
+# -*- mode: ruby -*-
+# -*- coding: utf-8 -*-
+# vi: set ft=ruby :
+# vi: set fileencoding=utf-8 :
+# encoding: utf-8
 
 # Page settings:
 page '/*.xml', layout: false
@@ -19,10 +23,12 @@ activate :directory_indexes
 # Helpers
 ###
 helpers do
+  # rubocop:disable Naming/PredicateName
   # Active page
   def is_page_active(page)
     current_page.url == page ? 'active' : ''
   end
+  # rubocop:enable Naming/PredicateName
 end
 
 ###

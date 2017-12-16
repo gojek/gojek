@@ -1,6 +1,22 @@
+# OS & Project Temporay Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN
+Icon
+
+# Text Editor & IDE
+/.idea
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ruby's Temporary Files
 .bundle
 .cache
-.DS_Store
 .sass-cache
-.idea
-build/
+/build/
+/vendor/

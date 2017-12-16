@@ -7,13 +7,14 @@ all: clean setup install serve
 setup:
 	rbenv install --skip-existing
 	gem install bundler
-	git remote add upstream ${GITHUB_PAGES_REPO}
+	-git remote --verbose add upstream ${GITHUB_PAGES_REPO} || \
+	 git remote --verbose set-url upstream ${GITHUB_PAGES_REPO}
 
 clean:
 	rm -rf ./build
 
 install:
-	bundler install
+	bundle install --path vendor
 
 serve:
 	bundle exec middleman server
