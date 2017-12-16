@@ -19,5 +19,9 @@ install:
 serve:
 	bundle exec middleman server
 
+.PHONY: build
+build:
+	bundle exec middleman build
+
 publish: clean
 	bundle exec rake publish REMOTE_NAME=upstream BRANCH_NAME=master
