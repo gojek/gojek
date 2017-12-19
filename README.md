@@ -1,33 +1,30 @@
-Website is built with [Middleman](http://www.middlemanapp.com), an open source static site generator.
-Feel free to take a look round.
+# GO-JEK Tech Team's Website Builder
 
-Please visit the website here : (http://www.gojek.io)
+## Description
 
-## Usage
+[Middleman](https://middlemanapp.com/)-Powered Website Builder 👨🏻‍🏭⚡🕸🏛
 
-To install dependencies: 
+[GO-JEK](https://github.com/gojek/gojek) generates content for 
+[GO-JEK GitHub Pages](https://github.com/gojek/gojek.github.io) 
+
+This is currently still a fork of https://github.com/gojek-engineering/gojek-engineering so please push changes to both.
+
+## Building
 
 ```
-$ bundle install
-```
-To run development server:
+try,
+  make clean
+  make setup
+  make install
+  make serve
 
-```
-$ bundle exec middleman server
-```
-
-To build locally:
-```
-$ bundle exec rake build
-```
-
-To deploy on gh-pages:
-```
-$ bundle exec rake publish
+or just,
+  make
 ```
 
-If you run into issues publishing:
+## License
+
 ```
-$ rm -rf build
-$ bundle exec rake publish
+Copyright 2017, GO-JEK Tech Team (http://www.gojek.io)
+
 ```

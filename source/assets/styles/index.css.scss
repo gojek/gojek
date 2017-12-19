@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+// base
 @import "base/normalize";
 @import "base/grid";
 @import "base/global";
@@ -8,7 +9,7 @@
 @import "base/modals";
 @import "base/slider";
 @import "base/button";
-
+// components
 @import "components/navbar";
 @import "components/footer";
 @import "components/homepage";

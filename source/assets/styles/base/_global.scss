@@ -1,50 +1,47 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    font-size: 15px;
-    line-height: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: normal;
 }
 
 p {
-    word-spacing: 1.4px;
-    line-height: 1.6em;
+  word-spacing: 1.4px;
+  line-height: 1.6em;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
-
-
-
 
 /* Add a gutter to Pure's Columns */
 
 .pure-g.pure-g--gutter {
-    margin: 0 -2em;
+  margin: 0 -2em;
 }
 
-.pure-g.pure-g--gutter>div {
-    padding: 0 2em;
+.pure-g.pure-g--gutter > div {
+  padding: 0 2em;
 }
 
 .pure-g.pure-g--gutter_wide {
-    margin: 0 -4em;
+  margin: 0 -4em;
 }
 
-.pure-g.pure-g--gutter_wide>div {
-    padding: 0 4em;
+.pure-g.pure-g--gutter_wide > div {
+  padding: 0 4em;
 }
