@@ -4,6 +4,7 @@
                   "title": "Full Stack Engineer",
                   "location": "bangalore",
                   "linktext": "full-stack",
+                  "linkurl": "https://goo.gl/8X3zzH",
                   "responsibilities": [
                       "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns.",              
                       "Translate business requirements into scalable and extensible design.",
@@ -48,6 +49,7 @@
                   "title": "Software Engineering Lead",
                   "location": "Bangalore",
                   "linktext": "software-engineering-lead",
+                  "linkurl": "https://goo.gl/Q32osE",
                   "responsibilities": [					  
 					  "Lead one or more teams of talented engineers who like to ship code and tackle hard engineering problems.",
 					  "Mentor and guide the professional and technical development of your team members. Help develop their careers, and assign them to projects tailored to their skill levels, personalities, work styles, and professional goals.",
@@ -85,6 +87,7 @@
             "title": "Data Scientist",
             "location": "bangalore",
             "linktext": "data-scientist",
+            "linkurl": "https://goo.gl/pXRB7f",
             "responsibilities": [
                 "Selecting features, building and optimizing machine learning models.",
                 "Data mining using state-of-the-art methods.",
@@ -115,6 +118,7 @@
             "title": "iOS Engineer",
             "location": "bangalore",
             "linktext": "mobile-ios",
+            "linkurl": "https://goo.gl/WVDre3",
             "responsibilities": [
                 "Design, build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel",
                 "Lead, mentor and manage deliverables of a small team of iOS developers",
@@ -143,13 +147,14 @@
                 "Ability to plan, prioritize, estimate and execute releases with good degree of predictability.",
                 "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
                 "Passion to learn new things, solve challenging problems.",
-				"Prior experience being a founder is a huge plus."
+		"Prior experience being a founder is a huge plus."
             ]
         },
         {
             "title": "Product Manager",
             "location": "Bangalore",
             "linktext": "product-manager",
+            "linkurl": "https://goo.gl/fJzF2r",
             "responsibilities": [
 				"Craft delightful product experiences.",
 				"Lead product strategy and execution to meet specific business targets.",
