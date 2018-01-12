@@ -43,7 +43,7 @@
                   <div class="job-detail__header text-center m-b-90">
                     <p class="heading m-0 text-cap"><%= f.title %></p>
                     <p class="m-b-30 text-cap"><%= f.location %></p>
-                    <a href="mailto:work+website@go-jek.com?Subject=<%= f.title %>" class="button button--primary">Apply</a>
+                    <a href="<%= f.linkurl %>" class="button button--primary">Apply</a>
                   </div>
                   <div class="job-detail__responsibility m-b-60">
                     <p class="heading--s">Responsibilities</p>
@@ -63,7 +63,7 @@
                     </ul>
 
                   </div>
-                  <a href="mailto:work@go-jek.com?Subject=<%= f.title %>" class="button button--primary">Apply</a>
+                  <a href="<%= f.linkurl %>" class="button button--primary">Apply</a>
                 </div>
               </div>
             </div>
