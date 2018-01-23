@@ -1,4 +1,5 @@
 # GO-JEK Tech Team's Website Builder
+[![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
 
 ## Description
 
