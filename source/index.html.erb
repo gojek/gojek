@@ -1,0 +1,156 @@
+<div class="map-viz">
+  <p class="map-viz__title">Indonesia's <br /> first <br /> Unicorn</p>
+</div>
+<div class="homepage">
+  <div class="container">
+    <p class="heading text-center m-b-90">We build products that help millions of Indonesians commute, shop, eat and
+      pay, daily.</p>
+    <div class="pure-g pure-g--gutter_wide">
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts">
+          <%= image_tag 'homepage/apiviz.svg', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">100+ Million Monthly Orders</p>
+          <p class="text-center heading--m">~1000x growth in under 3 years</p>		  
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts m-auto">
+          <%= image_tag 'homepage/distanceviz.png', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">16.5 million km covered daily</p>
+          <p class="text-center heading--m">That's 21 round trips to the moon every day</p>
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts pull-right">
+          <%= image_tag 'homepage/allocationviz.svg', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">API calls</p>
+          <p class="text-center heading--m">140 Million connections per second at peak</p>		  
+        </div>
+      </div>
+    </div>
+    <div class="pure-g pure-g--gutter_wide">
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts">
+          <%= image_tag 'homepage/distanceviz.png', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">Time Distance Computations</p>
+          <p class="text-center heading--m">1.2 Billion computations every day</p>		  
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts m-auto">
+          <%= image_tag 'homepage/allocationviz.svg', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">90,000+ restaurants on GO-FOOD</p>
+          <p class="text-center heading--m">and 40,000 of them are SME's that sell Indonesian food</p>
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <div class="homepage__impacts pull-right">
+          <%= image_tag 'homepage/apiviz.svg', :class => 'homepage__impacts__viz m-b-10' %>
+          <p class="text-center homepage__impacts__figure">US $5 million</p>
+          <p class="text-center heading--m">Amount of tips received by our drivers in a month</p>
+        </div>
+      </div>
+    </div>
+    <div class="homepage__indonesia m-v-140">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
+          <div class="homepage__indonesia__info">
+            <p class="heading"><span class="">900,000</span> Drivers</p>
+            <p>Drivers' monthly income has gone up by 15% over the past year</p>
+          </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
+          <img src="assets/images/homepage/indonesia.png" class="homepage__indonesia__map" alt="Indonesia">
+        </div>
+      </div>
+    </div>
+    <div class="m-v-140">
+      <p class="heading text-center m-b-60">What's Life Without Limits</p>
+      <div class="pure-g pure-g--gutter_wide">
+        <div class="pure-u-1">
+          <div class="homepage__videos">
+            <div id="player2"></div>
+            <div class="playbutton playbutton--s" id="js-playbutton2" style="display: block;">
+              <%= image_tag 'playbutton.svg', :class => '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="heading text-center m-v-140">
+      We are looking for opinionated and skilled designers, programmers, analysts, data scientists and product
+      managers to <%= link_to 'join us', 'mailto:work+website@go-jek.com', :class => 'flat-link' %>.
+    </p>
+  </div>
+</div>
+<script>
+  // 1. This code loads the IFrame Player API code asynchronously.
+  var tag            = document.createElement('script');
+  tag.src            = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // 2. This function creates an <iframe> (and YouTube player)
+  //    after the API code downloads.
+  var player1, player2, player3;
+
+  function onYouTubeIframeAPIReady() {
+
+    player2 = new YT.Player('player2', {
+      height : '100%',
+      width  : '100%',
+      videoId: '-0q65jLm1wA',
+      events : {
+        'onStateChange': onPlayerTwoChange
+      }
+    });
+
+    player3 = new YT.Player('player3', {
+      height : '100%',
+      width  : '100%',
+      videoId: 'Jj7PK05_Ow4',
+      events : {
+        'onStateChange': onPlayerThreeChange
+      }
+    });
+
+    document.getElementById('js-playbutton2').onclick = function () {
+      player2.playVideo();
+      var state = this.style.display;
+      if (state === 'block') {
+        this.style.display = 'none';
+      } else {
+        this.style.display = 'block';
+      }
+    };
+
+    function onPlayerTwoChange(event) {
+      if (event.data == YT.PlayerState.PAUSED) {
+        document.getElementById('js-playbutton2').style.display = 'block';
+      }
+      if (event.data == YT.PlayerState.PLAYING) {
+        document.getElementById('js-playbutton2').style.display = 'none';
+      }
+    }
+
+    document.getElementById('js-playbutton3').onclick = function () {
+      player1.playVideo();
+      var state = this.style.display;
+      if (state === 'block') {
+        this.style.display = 'none';
+      } else {
+        this.style.display = 'block';
+      }
+    };
+
+    function onPlayerThreeChange(event) {
+      if (event.data == YT.PlayerState.PAUSED) {
+        document.getElementById('js-playbutton3').style.display = 'block';
+      }
+      if (event.data == YT.PlayerState.PLAYING) {
+        document.getElementById('js-playbutton3').style.display = 'none';
+      }
+    }
+
+  }
+</script>

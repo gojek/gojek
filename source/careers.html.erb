@@ -1,0 +1,81 @@
+<div class="careerpage p-t-160">
+  <div class="container">
+    <p class="heading heading--l text-center ">WE LOVE BUILDING BEAUTIFUL THINGS</p>
+    <p class="text-center m-b-90"><!-- Secondary Copy --></p>
+    <div class="careerpage__cover m-b-120"></div>
+    <p class="heading">Life at GO-JEK</p>
+    <p class="m-b-60"><!-- Secondary Copy --></p>
+    <div class="m-b-90">
+      <div class="pure-g pure-g--gutter_wide">
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image1.jpg', :class => 'go-life__image' %>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image2.jpg', :class => 'go-life__image' %>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image3.jpg', :class => 'go-life__image' %>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image4.jpg', :class => 'go-life__image' %>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image5.jpg', :class => 'go-life__image' %>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+          <%= image_tag 'careerpage/image6.jpg', :class => 'go-life__image' %>
+        </div>
+      </div>
+    </div>
+    <p class="heading">Open positions</p>
+    <p class="m-b-30">We're looking for passionate, opinionated and hands-on makers.</p>
+    <div class="m-b-90">
+      <div class="pure-g pure-g--gutter">
+        <% data.jobs.jobs.each_with_index do |f, index| %>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+            <p class="heading m-b-10 text-cap"><%= f.title %></p>
+            <p class="m-b-30 text-cap"><%= f.location %></p>
+            <a class="button m-b-60 <%= f.linktext %>" name="<%= f.linktext %>">View</a>
+            <div class="modal" id="<%= f.linktext %>">
+              <div class="container modal__box">
+                <%= image_tag "closebutton.svg", :class => 'modal__close modal__close__button pull-right' %>
+                <div class="job-detail">
+                  <div class="job-detail__header text-center m-b-90">
+                    <p class="heading m-0 text-cap"><%= f.title %></p>
+                    <p class="m-b-30 text-cap"><%= f.location %></p>
+                    <a href="<%= f.linkurl %>" class="button button--primary">Apply</a>
+                  </div>
+                  <div class="job-detail__responsibility m-b-60">
+                    <p class="heading--s">Responsibilities</p>
+                    <ul>
+                      <% f.responsibilities.each do |rs| %>
+                        <li><%= rs %></li>
+                      <% end %>
+                    </ul>
+
+                  </div>
+                  <div class="job-detail__requirement m-b-60">
+                    <p class="heading--s">About You</p>
+                    <ul>
+                      <% f.requirements.each do |rq| %>
+                        <li><%= rq %></li>
+                      <% end %>
+                    </ul>
+
+                  </div>
+                  <a href="<%= f.linkurl %>" class="button button--primary">Apply</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <p class="heading text-center m-v-140">Your profile doesn't fit a box? Don't
+      worry. <%= link_to 'Drop us a message.', '/contact.html', :class => 'flat-link' %></p>
+  </div>
+</div>
+<script type="text/javascript">
+  <%= partial 'partials/modalwindow.js' %>
+  new ModalWindows("modal");
+</script>
