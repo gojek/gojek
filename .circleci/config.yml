@@ -29,32 +29,24 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "Gemfile.lock" }}
-          - v1-dependencies-
-      - run:
-          name: Install Dependencies
-          command: |
-            bundle install --jobs=4 --retry=3 --path vendor
-      - save_cache:
-          paths:
-            - ./vendor
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - run:
           name: Setup GitHub Pages Remote
           command: |
             git remote --verbose add gojek-github-io ${GITHUB_PAGES_REPO}
       - run:
-          name: Run setup script
-          command: bash .circleci/setup.sh
+          name: Install Dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor
       - add_ssh_keys:
           fingerprints:
             - "80:45:52:13:de:87:65:1d:2b:80:a6:28:2a:75:2c:c2"
       - run:
+          name: Run Setup Script
+          command: bash .circleci/setup.sh
+      - run:
           name: Publish Master to GitHub Pages
           command: |
-            GOJEK_CNAME="www.gojek.io" bundle exec rake publish REMOTE_NAME=gojek-github-io BRANCH_NAME=master
+            bundle exec rake publish REMOTE_NAME=gojek-github-io BRANCH_NAME=master
 
 workflows:
   version: 2
