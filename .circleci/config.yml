@@ -23,7 +23,6 @@ jobs:
           name: Build Pages
           command: |
             bundle exec middleman build
-
   deploy:
     docker:
         - image: circleci/ruby:2.4.1-node-browsers
@@ -48,7 +47,7 @@ jobs:
             git remote --verbose add gojek-github-io ${GITHUB_PAGES_REPO}
       - run:
           name: Run setup script
-          command: bash .circleci/setup-github.sh
+          command: bash .circleci/setup.sh
       - add_ssh_keys:
           fingerprints:
             - "80:45:52:13:de:87:65:1d:2b:80:a6:28:2a:75:2c:c2"
