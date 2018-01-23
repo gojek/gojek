@@ -1,0 +1,25 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+       - image: circleci/ruby:2.4.1-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          - v1-dependencies-
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor
+      - save_cache:
+          paths:
+            - ./vendor
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: build pages
+          command: |
+            bundle exec middleman build
