@@ -2,7 +2,7 @@
     "jobs": [
         {
                   "title": "Full Stack Engineer",
-                  "location": "bangalore",
+                  "location": "Bangalore & Jakarta",
                   "linktext": "full-stack",
                   "linkurl": "https://goo.gl/8X3zzH",
                   "responsibilities": [
@@ -47,7 +47,7 @@
               },  
 			  {
                   "title": "Software Engineering Lead",
-                  "location": "Bangalore",
+                  "location": "Jakarta & Bangalore",
                   "linktext": "software-engineering-lead",
                   "linkurl": "https://goo.gl/Q32osE",
                   "responsibilities": [					  
@@ -85,7 +85,7 @@
               },
         {
             "title": "Data Scientist",
-            "location": "bangalore",
+            "location": "Bangalore, Singapore & Jakarta",
             "linktext": "data-scientist",
             "linkurl": "https://goo.gl/pXRB7f",
             "responsibilities": [
@@ -116,7 +116,7 @@
         },
         {
             "title": "iOS Engineer",
-            "location": "bangalore",
+            "location": "Jakarta & Bangalore",
             "linktext": "mobile-ios",
             "linkurl": "https://goo.gl/WVDre3",
             "responsibilities": [
@@ -152,7 +152,7 @@
         },
         {
             "title": "Product Manager",
-            "location": "Bangalore",
+            "location": "Jakarta & Bangalore",
             "linktext": "product-manager",
             "linkurl": "https://goo.gl/fJzF2r",
             "responsibilities": [
