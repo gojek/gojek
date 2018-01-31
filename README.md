@@ -12,8 +12,13 @@ This is currently still a fork of https://github.com/gojek-engineering/gojek-eng
 
 ## Building
 
+Set up git@github.com:gojek-engineering/gojek-engineering.git as `origin`
+Set up git@github.com:gojek/gojek.git as remote with name `gojek-github-io`
+
+
+### Local copy
 ```
-try,
+
   make clean
   make setup
   make install
@@ -21,6 +26,13 @@ try,
 
 or just,
   make
+```
+
+### Publish
+
+```
+make gojek-github-io-publish
+make publish
 ```
 
 ## License
