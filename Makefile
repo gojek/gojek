@@ -26,5 +26,5 @@ build:
 publish: clean
 	bundle exec rake publish
 
-gojek-github-io-publish:
+gojek-github-io-publish: clean
 	GOJEK_CNAME="www.gojek.io" bundle exec rake publish REMOTE_NAME=gojek-github-io BRANCH_NAME=master
