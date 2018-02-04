@@ -5,8 +5,8 @@
 
 [Middleman](https://middlemanapp.com/)-Powered Website Builder 👨🏻‍🏭⚡🕸🏛
 
-[GO-JEK](https://github.com/gojek/gojek) generates content for 
-[GO-JEK GitHub Pages](https://github.com/gojek/gojek.github.io) 
+[GO-JEK](https://github.com/gojek/gojek) generates content for
+[GO-JEK GitHub Pages](https://github.com/gojek/gojek.github.io)
 
 This is currently still a fork of https://github.com/gojek-engineering/gojek-engineering so please push changes to both.
 
@@ -16,9 +16,8 @@ Set up git@github.com:gojek-engineering/gojek-engineering.git as `origin`
 Set up git@github.com:gojek/gojek.git as remote with name `gojek-github-io`
 
 
-### Local copy
+### Local Copy
 ```
-
   make clean
   make setup
   make install
@@ -31,8 +30,7 @@ or just,
 ### Publish
 
 ```
-make gojek-github-io-publish
-make publish
+make publish # publishes only to gojekengineering.com; gojek.io publishing happens through circle-ci
 ```
 
 ## License
