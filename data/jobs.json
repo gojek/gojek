@@ -1,0 +1,180 @@
+{
+    "jobs": [
+        {
+                  "title": "Full Stack Engineer",
+                  "location": "Bangalore & Jakarta",
+                  "linktext": "full-stack",
+                  "linkurl": "https://goo.gl/8X3zzH",
+                  "responsibilities": [
+                      "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns.",              
+                      "Translate business requirements into scalable and extensible design.",
+                      "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
+                      "Partner with the product management team to define and execute the feature roadmap.",
+                      "Coordinate with cross functional teams (Mobile, DevOps, Data, UX, QA etc.) on planning and execution.",
+                      "Continuously improve code quality, product execution and customer delight.",
+                      "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies.",
+                      "Communicate, collaborate and work effectively across distributed teams in a global environment.",
+                      "Building and managing fully automated build/test/deployment environments.",
+                      "An innate desire to deliver and a strong sense of accountability for your work.",
+                      "Willingness to learn new languages and methodologies."                
+                  ],
+                  "requirements": [
+      				"You greatly value humility.",
+					"You understand the dangers associated with being attached to your code.",
+                      "You write code because you like to. You never stop wanting to get better at it.",                
+      				"A strong sense of ownership.",
+      				"A passion for crafting delightful customer experiences.",
+                      "A desire to be part of a team that delivers impactful results every day.",
+      				"A commitment to writing understandable, maintainable, and reusable software.",				
+                      "4+ years of experience in software development or a serious open source track record",
+                      "2+ years of hands-on experience in designing, developing, testing and deploying applications large scale applications in any language or stack",
+                      "2+ years of hands-on experience working on one or more front end technologies - Web, Android or iOS - and understand their nuances",
+                      "Deep knowledge of Linux as a production environment",
+                      "Proficiency in OOP, including design patterns. Experience with functional programming is a plus.",
+                      "Data modelling experience in both Relational and NoSQL databases.",
+                      "Ability to understand and implement Continuous Integration and Continuous Delivery.",
+                      "Well versed with Lean methodologies, TDD and Test Engineering and Automation.",
+                      "Ability to design and implement low latency RESTful services.",
+                      "Experience troubleshooting server performance ­memory issues, GC tuning, resource leaks etc.",
+                      "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimisations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems.",
+                      "Continuously refactor applications and architectures to maintain high quality levels.",
+                      "Ability to plan, prioritise, estimate and execute releases with a high degree of consistency.",
+                      "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks.",
+                      "Passion for learning new things, solving challenging problems.",
+      				"We primarily use Clojure, Golang, Ruby, Kotlin, Swift and Java. Familiarity with one or more is a plus.",
+                      "Prior experience being a founder is a huge plus."
+                  ]
+              },  
+			  {
+                  "title": "Software Engineering Lead",
+                  "location": "Jakarta & Bangalore",
+                  "linktext": "software-engineering-lead",
+                  "linkurl": "https://goo.gl/Q32osE",
+                  "responsibilities": [					  
+					  "Lead one or more teams of talented engineers who like to ship code and tackle hard engineering problems.",
+					  "Mentor and guide the professional and technical development of your team members. Help develop their careers, and assign them to projects tailored to their skill levels, personalities, work styles, and professional goals.",
+					  "Build teams that are collaborative, inclusive, and respectful of each other.",
+					  "Provide continuous feedback, address underperformance, and recognize the individual strengths and contributions of your team members.",
+					  "Create plans for prioritizing technical and resourcing challenges in your organization.",
+					  "Maintain a balance between building sustainable, high-impact projects and shipping things quickly.",
+					  "Instill a spirit of continuous improvement in the team’s code, architecture, and processes.",
+					  "Work closely with the GO-JEK recruiting team to hire high potential candidates from diverse backgrounds.",
+					  "Work with your engineers and/or product managers to maintain a prioritized backlog and create short term and long term goals.",
+					  "Own your team’s deliverables and ensure we continue to ship scalable, highly-available products that delight our passengers and drivers.",
+					  "Help your team build relationships across functions with Support, Marketing, Ops, BizDev, or other teams to ensure GO-JEK’s continuing success."
+                      
+                  ],
+                  "requirements": [
+					"You greatly value humility.",
+					"You prefer to spend 20-30% of your time writing production grade code with your team.",
+					"You have deep expertise in at least one of: programming languages, especially functional languages, object oriented design or SRE.",
+					"You have lead fast moving engineering teams in the past, and understand how to help them deliver continously.",
+					"You have an empirical approach to improving team productivity.",
+					"You enjoy fast moving, rapidly evolving environments and problems.",
+					"You consciously avoid zero and negative sum solutions to problems.",
+					"You have a firm grasp of software engineering principles, both for code and for people.",
+					"You have a technical background and are able to contribute to planning and design discussions.",
+					"You are steadfastly focused on your customers, whether they are drivers, passengers, or other GO-JEK employees.",
+					"You have experience leading a team of engineers and guiding them through their career development.",
+					"You believe in building both teams and products that scale.",
+					"You enjoy working in a collaborative environment, and you’re committed to driving projects to completion creatively.",
+					"You can motivate and instill a strong sense of ownership in your team.",
+					"You have experience guiding teams through planning, prioritization, and execution of work.",
+					"You think ahead and build for the future."
+                  ]
+              },
+        {
+            "title": "Data Scientist",
+            "location": "Bangalore, Singapore & Jakarta",
+            "linktext": "data-scientist",
+            "linkurl": "https://goo.gl/pXRB7f",
+            "responsibilities": [
+                "Selecting features, building and optimizing machine learning models.",
+                "Data mining using state-of-the-art methods.",
+                "Extending company’s data with third party sources of information when needed.",
+                "Enhancing data collection procedures to include information that is relevant for building analytic systems.",
+                "Processing, cleansing, and verifying the integrity of data used for analysis.",
+                "Doing ad-hoc analysis and presenting results in a clear manner.",
+                "Building continuous deployments and productionizing machine learning models.",
+                "A/B Testing for models evaluation."
+            ],
+            "requirements": [
+                "At least 1-2 years of experience in a data science role working with large data sets.",
+                "Self-driven and entrepreneurial with a strong sense of ownership.",
+                "Excellent understanding of machine learning techniques and algorithms.",
+                "Experience with common data science toolkits, such as Scikit-Learn, R, Weka, MatLab, etc",
+                "Great communication skills.",
+                "Possess good understanding of design thinking, solid CS fundamentals",
+                "Strong applied statistics skills, such as distributions, statistical testing, regression, etc",
+                "Strong programming skills.",
+                "Experienced with Python, R , Golang, Scala, R and Shell.",
+                "Ability to whiteboard some theory while at the same time rolling up your sleeves and get coding Ability to work independently to solve problems and develop solutions",
+                "Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and develop data visualisation for data stories",
+                "Kaggle/Hackathon experience a plus.",
+				"Prior experience being a founder is a huge plus."
+            ]
+        },
+        {
+            "title": "iOS Engineer",
+            "location": "Jakarta & Bangalore",
+            "linktext": "mobile-ios",
+            "linkurl": "https://goo.gl/WVDre3",
+            "responsibilities": [
+                "Design, build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel",
+                "Lead, mentor and manage deliverables of a small team of iOS developers",
+                "Partner with the product management team to define and execute the feature roadmap",
+                "Coordinate with cross functional teams (Backend, DevOps, Design etc.) on planning and execution",
+                "Proactively manage stakeholders communication related to deliverables, risks, changes and dependencies",
+                "Provide technology leadership to the team and foster engineering excellence",
+                "Communicate, collaborate and work effectively across cross functional teams in a global Environment"
+            ],
+            "requirements": [
+                "5+ years of experience in software development",
+                "2+ years of hands on experience in designing, developing and testing Apps on iOS for large scale applications (at least 500k MAU)",
+                "A willingness to expand into a full stack role, with an emphasis on iOS",
+                "Strong understanding of iOS Apps architecture and implementation",
+                "Proficient in OOPs, Design Patterns",
+                "Proficiency in Web Technologies will be a plus",
+                "Proficient in Objective­C programming, Cocoa, Xcode and the iOS SDK.",
+                "Ability to troubleshoot fuzzy problems across systems and subsystems effectively.",
+                "Ability to write model code for functional and nonfunctional requirements and help improve the code quality standard across the team",
+                "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimizations, database interactions, network programming, concurrency and multithreading.",
+                "Ability to design systems/sub­systems, API contracts and enable platformization independently",
+                "Working experience with popular libraries for networking, async, image loading etc.",
+                "Ability to create extendable and reusable eco systems & platforms and mobile.",
+                "Well versed with Agile methodologies, TDD and Test Engineering and Automation.",
+                "Ability to understand and implement continuous Integration and Continuous Delivery principles.",
+                "Ability to plan, prioritize, estimate and execute releases with good degree of predictability.",
+                "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
+                "Passion to learn new things, solve challenging problems.",
+		"Prior experience being a founder is a huge plus."
+            ]
+        },
+        {
+            "title": "Product Manager",
+            "location": "Jakarta & Bangalore",
+            "linktext": "product-manager",
+            "linkurl": "https://goo.gl/fJzF2r",
+            "responsibilities": [
+				"Craft delightful product experiences.",
+				"Lead product strategy and execution to meet specific business targets.",
+				"Define and communicate your product’s vision, execution, goals, and own creating outcomes.",						
+				"Continuously, iteratively improve the quality of both product and execution.",
+				"Cross-functional collaboration with engineering, product, design, marketing, sales and business to ensure seamless product iteration."
+            ],
+            "requirements": [
+				"You greatly value humility.",
+				"Passion for products. You’re doing this because you want to.",
+				"2 or more years of experience in building and shipping software products.",
+				"Strong analytical skills and a firm grasp of logic.",	
+				"Clarity and precision in communication. Exceptional spoken and written English.",
+				"Comfortable with executing in chaotic, rapidly evolving markets and circumstances.",
+				"Experience with lean product execution philosophies.",
+				"Experience in collaborating with and helping co-ordinate fast moving engineering teams.",
+				"A thorough grasp of agile and lean engineering principles and their trade-offs.",
+				"A strong grasp UI/UX design practices.",
+				"Prior experience being a founder is a huge plus."
+            ]
+        }
+    ]
+}

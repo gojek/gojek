@@ -1,0 +1,33 @@
+.button {
+  padding: 6px 30px;
+  width: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button.button--primary {
+  background-color: #3dc057;
+  color: white;
+  border-color: #3dc057;
+}
+
+.button:hover {
+  border-color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.button.button--primary:hover {
+  background-color: #33a149;
+  border-color: #33a149;
+  color: white;
+}
+
+.flat-link {
+  color: #3dc057;
+  cursor: pointer;
+  text-decoration: none;
+}
