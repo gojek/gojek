@@ -106,10 +106,10 @@
         "Possess good understanding of design thinking, solid CS fundamentals.",
         "Strong applied statistics skills, such as distributions, statistical testing, regression, etc.",
         "Strong programming skills.",
-        "Experienced with Python, R , Golang, Scala, R and Shell.",
+        "Experienced with Python, R , Golang, Scala and Shell.",
         "Ability to whiteboard some theory while at the same time rolling up your sleeves and get coding.",
         "Ability to work independently to solve problems and develop solutions.",
-        "Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and develop data visualisation for data stories.",
+        "Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and developing data visualisation for data stories.",
         "Kaggle/Hackathon experience a plus.",
         "Prior experience being a founder is a huge plus."
       ]
@@ -201,6 +201,38 @@
         "Good understanding agile methodologies, TDD and test automation.",
         "Good understanding continuous integration and continuous delivery principles and related tool stack.",
         "Passion to learn new things, solve challenging problems."
+      ]
+    },
+    {
+      "title"           : "Iteration Manager",
+      "location"        : "Bangalore",
+      "linktext"        : "iteration-manager",
+      "linkurl"         : "https://goo.gl/beyR7M",
+      "description"     : "As the Iteration manager, you will be responsible for managing, scope, product cadence for delivery, constant improvement of quality and productivity through agile practices. As the \"keeper of the proces\", you will be the de-facto rhythm of the team with a responsibility to facilitate self-organisation and self-driven product teams.",
+      "responsibilities": [
+        "Work with the team to establish and follow team practices like standup, core working hours, story kickoff, retrospectives etc to improve throughput and productivity.",
+        "Work with the Products Managers to drive exercises like estimation and showcases for iteration and releases to help with scope management and product cadence.",
+        "Work with the Engineers to establish and report on metrics like code coverage, test coverage etc to drive quality and throughput for the team.",
+        "Work with the product managers to ensure that the product backlog is current and live.",
+        "Help with prioritisation of features to be picked up for an iteration and track velocity to measure and report on cadence.",
+        "Ensure that the team’s bottlenecks are identified and addressed.",
+        "Work with the product managers to adapt to changes in planed scope.",
+        "Help with reducing the “noise” for product teams around communications.",
+        "Own reporting on progress through burn-up/burn-down charts.",
+        "Keep all stakeholders informed on progress and any potential delays."
+      ],
+      "requirements"    : [
+        "You greatly value humility.",
+        "A strong sense of ownership.",
+        "A passion for crafting delightful customer experiences.",
+        "A desire to be part of an agile team that delivers impactful results every day.",
+        "A commitment to writing understandable, maintainable, and reusable software.",
+        "3+ years of experience in software development as a technical business analyst or Iteration Manager",
+        "Ability to understand and implement Continuous Integration and Continuous Delivery.",
+        "Well versed with Lean and Agile methodologies, TDD and Test Engineering and Automation.",
+        "Ability to plan, prioritise, estimate and execute releases with a high degree of consistency.",
+        "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks.",
+        "Passion for learning new things, solving challenging problems."
       ]
     }
   ]

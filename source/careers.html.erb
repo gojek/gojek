@@ -45,6 +45,12 @@
                     <p class="m-b-30 text-cap"><%= f.location %></p>
                     <a href="<%= f.linkurl %>" class="button button--primary">Apply</a>
                   </div>
+                  <% if f.description && !f.description.empty? %>
+                    <div class="job-detail__description m-b-60">
+                      <p class="heading--s">Description</p>
+                      <p><%= f.description %></p>
+                    </div>
+                  <% end %>
                   <div class="job-detail__responsibility m-b-60">
                     <p class="heading--s">Responsibilities</p>
                     <ul>
