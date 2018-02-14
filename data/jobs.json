@@ -83,39 +83,6 @@
       ]
     },
     {
-      "title"           : "Data Scientist",
-      "location"        : "Bangalore, Singapore & Jakarta",
-      "linktext"        : "data-scientist",
-      "linkurl"         : "https://goo.gl/pXRB7f",
-      "responsibilities": [
-        "Selecting features, building and optimizing machine learning models.",
-        "Data mining using state-of-the-art methods.",
-        "Extending company’s data with third party sources of information when needed.",
-        "Enhancing data collection procedures to include information that is relevant for building analytic systems.",
-        "Processing, cleansing, and verifying the integrity of data used for analysis.",
-        "Doing ad-hoc analysis and presenting results in a clear manner.",
-        "Building continuous deployments and productionizing machine learning models.",
-        "A/B Testing for models evaluation."
-      ],
-      "requirements"    : [
-        "At least 3-5 years of experience in a data science role working with large data sets.",
-        "Self-driven and entrepreneurial with a strong sense of ownership.",
-        "Excellent understanding of machine learning techniques and algorithms.",
-        "Experience with common data science toolkits, such as Scikit-Learn, R, Weka, MatLab, etc.",
-        "Great communication skills.",
-        "Possess good understanding of design thinking, solid CS fundamentals.",
-        "Strong applied statistics skills, such as distributions, statistical testing, regression, etc.",
-        "Strong programming skills.",
-        "Development experience with at least two languages: Python, R, Go, Scala or Java.",
-        "Hands-on experience in Shell scripting and Unix/Linux OS.",
-        "Ability to whiteboard some theory while at the same time rolling up your sleeves and get coding.",
-        "Ability to work independently to solve problems and develop solutions.",
-        "Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and developing data visualisation for data stories.",
-        "Kaggle/Hackathon experience a plus.",
-        "Prior experience being a founder is a huge plus."
-      ]
-    },
-    {
       "title"           : "iOS Engineer",
       "location"        : "Bangalore & Jakarta",
       "linktext"        : "mobile-ios",
@@ -148,32 +115,6 @@
         "Ability to plan, prioritize, estimate and execute releases with good degree of predictability.",
         "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
         "Passion to learn new things, solve challenging problems.",
-        "Prior experience being a founder is a huge plus."
-      ]
-    },
-    {
-      "title"           : "Product Manager",
-      "location"        : "Bangalore & Jakarta",
-      "linktext"        : "product-manager",
-      "linkurl"         : "https://goo.gl/fJzF2r",
-      "responsibilities": [
-        "Craft delightful product experiences.",
-        "Lead product strategy and execution to meet specific business targets.",
-        "Define and communicate your product’s vision, execution, goals, and own creating outcomes.",
-        "Continuously, iteratively improve the quality of both product and execution.",
-        "Cross-functional collaboration with engineering, product, design, marketing, sales and business to ensure seamless product iteration."
-      ],
-      "requirements"    : [
-        "You greatly value humility.",
-        "Passion for products. You’re doing this because you want to.",
-        "2 or more years of experience in building and shipping software products.",
-        "Strong analytical skills and a firm grasp of logic.",
-        "Clarity and precision in communication. Exceptional spoken and written English.",
-        "Comfortable with executing in chaotic, rapidly evolving markets and circumstances.",
-        "Experience with lean product execution philosophies.",
-        "Experience in collaborating with and helping co-ordinate fast moving engineering teams.",
-        "A thorough grasp of agile and lean engineering principles and their trade-offs.",
-        "A strong grasp UI/UX design practices.",
         "Prior experience being a founder is a huge plus."
       ]
     },
