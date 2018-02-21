@@ -1,23 +1,15 @@
-# GO-JEK Tech Team's Website Builder
-[![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
+# GO-JEK (gojek.io) [![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
 
 ## Description
 
-[Middleman](https://middlemanapp.com/)-Powered Website Builder 👨🏻‍🏭⚡🕸🏛
+[Middleman][1]-Powered GO-JEK Tech Team's Website 👻 🕸 hosted with ❤️ by [GitHub Pages][2]
 
-[GO-JEK](https://github.com/gojek/gojek) generates content for
-[GO-JEK GitHub Pages](https://github.com/gojek/gojek.github.io)
-
-This is currently still a fork of https://github.com/gojek-engineering/gojek-engineering so please push changes to both.
+[GO-JEK][3] generates matter for [GO-JEK on GitHub Pages][4]
 
 ## Building
 
-Set up git@github.com:gojek-engineering/gojek-engineering.git as `origin`
-Set up git@github.com:gojek/gojek.git as remote with name `gojek-github-io`
-
-
-### Local Copy
 ```
+try, 
   make clean
   make setup
   make install
@@ -27,15 +19,13 @@ or just,
   make
 ```
 
-### Publish
-
-```
-make publish # publishes only to gojekengineering.com; gojek.io publishing happens through circle-ci
-```
-
 ## License
 
 ```
-Copyright 2017, GO-JEK Tech Team (http://www.gojek.io)
-
+Copyright 2018, GO-JEK Tech Team (http://www.gojek.io)
 ```
+
+[1]: https://middlemanapp.com
+[2]: https://pages.github.com
+[3]: https://github.com/gojek/gojek
+[4]: https://github.com/gojek/gojek.github.io 

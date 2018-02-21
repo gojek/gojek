@@ -18,6 +18,3 @@ serve:
 .PHONY: build
 build:
 	bundle exec middleman build
-
-publish: clean
-	bundle exec rake publish
