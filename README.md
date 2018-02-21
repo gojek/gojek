@@ -1,4 +1,4 @@
-# GO-JEK (gojek.io) [![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
+# [GO-JEK Tech Team](http://gojek.io) [![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
 
 ## Description
 
