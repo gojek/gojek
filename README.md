@@ -1,10 +1,10 @@
-# [GO-JEK Tech Team](http://gojek.io) [![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
+# [GO-JEK Technologies](http://gojek.io) [![CircleCI](https://circleci.com/gh/gojek/gojek/tree/master.svg?style=svg)](https://circleci.com/gh/gojek/gojek/tree/master)
 
 ## Description
 
-[Middleman][1]-Powered GO-JEK Tech Team's Website 👻 🕸 hosted with ❤️ by [GitHub Pages][2]
+[Middleman][1]-Powered GO-JEK Technologies's Website 👻 🕸 hosted with ❤️ by [GitHub Pages][2]
 
-[GO-JEK][3] generates matter for [GO-JEK on GitHub Pages][4]
+[GO-JEK Technologies][3] generates matter for [GO-JEK Technologies on GitHub Pages][4]
 
 ## Building
 
@@ -22,7 +22,7 @@ or just,
 ## License
 
 ```
-Copyright 2018, GO-JEK Tech Team (http://www.gojek.io)
+Copyright 2018, GO-JEK Technologies <http://www.gojek.io>
 ```
 
 [1]: https://middlemanapp.com
