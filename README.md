@@ -2,7 +2,7 @@
 
 ## Description
 
-[Middleman][1]-Powered GO-JEK Technologies's Website 👻 🕸 hosted with ❤️ by [GitHub Pages][2]
+[Middleman][1]-Powered GO-JEK Technologies's Website 👻 🕸 hosted with ❤️ by [GitHub][2]
 
 [GO-JEK Technologies][3] generates matter for [GO-JEK Technologies on GitHub Pages][4]
 
@@ -26,6 +26,6 @@ Copyright 2018, GO-JEK Technologies <http://www.gojek.io>
 ```
 
 [1]: https://middlemanapp.com
-[2]: https://pages.github.com
+[2]: https://github.com
 [3]: https://github.com/gojek/gojek
 [4]: https://github.com/gojek/gojek.github.io 
