@@ -1,0 +1,16 @@
+a.news-item{
+    padding: 20px 45px 40px 45px;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-decoration: none;
+    color: black;
+    
+    
+    &:hover{
+      background-color:  #f2f2f2;
+    }
+    
+    .news-item-title{
+      font-size: 1.7em;
+    }
+}
